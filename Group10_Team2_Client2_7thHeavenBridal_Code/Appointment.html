@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Appointment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/Style.css">
+
+    <style>
+        @font-face {
+            font-family: LaBelle;
+            src: url(Font/LaBelleAurore-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: Lora;
+            src: url(Font/Lora-VariableFont_wght.ttf);
+        }
+
+        @font-face {
+            font-family: Mallanna;
+            src: url(Font/Mallanna-Regular.ttf);
+        }
+
+        body {
+            background-color: #e5e1D8;
+        }
+    </style>
+</head>
+
+<body id="page-container">
+    <script src="JS/hjsCalendar.min.js"></script>
+
+    <a class="navbar-brand d-md-block d-none " href="#"><img src="Image/Logo.png" class="d-flex mx-auto "
+            style="width: 400px;" alt=""></a>
+    <nav class="navbar navbar-expand-md navBG">
+        <div class="container-fluid">
+            <a class="navbar-brand d-block d-md-none " href="#"><img src="Image/Logo.png" class="d-flex mx-auto"
+                    width="80%" alt=""></a>
+            <button class="navbar-toggler position-absolute end-0 me-2 top-0 mt-2" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item mx-3 ">
+                        <a class="nav-link active" aria-current="page" href="Homepage.html"
+                            style="font-family: Lora;">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="WeddingDress.html"
+                            style="font-family: Lora;">Wedding
+                            Dress</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active text-decoration-underline text-white" aria-current="page"
+                            href="Appointment.html" style="font-family: Lora;">Appointment</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="Testimony.html"
+                            style="font-family: Lora;">Testimony</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="Contact.html"
+                            style="font-family: Lora;">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="text-center tittle-font" style="margin-top: 18px;margin-bottom: 14px;">
+        Appointment
+    </div>
+
+    <div class="container" style="padding-bottom: 2%;">
+        <div class="bg-whitegray row" style="margin-left: 19%; margin-right: 19%;">
+            <div class="col-10">Tips for appointments</div>
+            <div class="col-2 text-end">
+                <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    <i class="bi bi-dash-lg" id="collapseAppointment" onclick="collapseA()"
+                        style="color:  #4F5653;"></i>
+                </a>
+            </div>
+        </div>
+        <div class="collapse" id="collapseExample" style="margin-left: 20%; margin-right: 20%;">
+            <div>
+                <p>1.Gown fitting six months before your wedding with a fixed date.</p>
+                <p>2.Fitting sessions 1 hour, be on time!</p>
+                <p>3.Wear well-fitted, skin-colored undergarments.</p>
+                <p>4.Bring only two people to your appointment.</p>
+                <p>5.Reschedule 24 hours before if needed. Contact us.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="hjsCalendar"></div>
+    <br>
+
+    <div class="box bg-superlightgray" style="padding-top:1%; padding-bottom: 2%;">
+        <div class="container" style="padding-left: 15%; padding-right: 15%;">
+            <p style="text-align: center;font-size: 24px;font-family: Lora; color: #6D6D72;">Appointment Form</p>
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Phone number" aria-label="Phone number">
+                    </div>
+                </div>
+                <br>
+                <div class="md-3">
+                    <input type="email" class="form-control" id="exampleInputemail1" aria-describedby="emailHelp"
+                        placeholder="Email">
+                </div>
+                <br>
+                <div class="md-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Note (Optional)"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="disabledSelect" class="form-label">Pax for fitting</label>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="md-2">
+                            <select id="disabledSelect" class="form-select w-auto float-start">
+                                <option></option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                            <label for="" class="ms-2" style="padding-top: 1%;">pax</label>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div for="" class="ms-2" style="padding-top: 1%; text-align: right;">*Kindly take note RM 15 per
+                            pax for 1 hour. *Pay later.</div>
+                    </div>
+                </div>
+            </form>
+            <br>
+            <div class="row justify-content-center text-center">
+                <div class="col">
+                    <div class="btn pbtn" style="padding: 0.5% 1%; font-size: 16px;"><a href="Appointment.html"
+                            style="text-decoration: none; color: #4F5653;"><b>Booking</b></a></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+    <footer id="footer">
+        <div class="bg-gray text-center" style="padding: 10px 0;font-family: LaBelle; color: #E5E1D8;">
+            © 2023 7th Heaven Enterprise
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="JS/Calendar.js"></script>
+    <script>
+        hjsCalendar(function (confirmTime) {
+            alert(confirmTime)
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,633 @@
+/* Typography start */
+h1 {
+    font-size: 80px
+}
+
+h2 {
+    font-size: 60px
+}
+
+h3 {
+    font-size: 48px
+}
+
+h4 {
+    font-size: 32px
+}
+
+h5 {
+    font-size: 24px
+}
+
+h6 {
+    font-size: 12px
+}
+
+p {
+    font-size: 18px
+}
+
+/* Typography end */
+
+/* Background Color start */
+.bg-darkred {
+    background-color: #B92525;
+}
+
+.bg-superlightgray {
+    background-color: #D9D9D9;
+}
+
+.bg-lightbeige {
+    background-color: #E5E1D8;
+}
+
+.bg-lightgray {
+    background-color: #B1B6B5;
+}
+
+.bg-gray {
+    background-color: #6D6D72;
+}
+
+.bg-whitegray {
+    background-color: #B8B9B4;
+}
+
+.bg-darkgray {
+    background-color: #4F5653;
+}
+
+.bg-lightbeigegray {
+    background-color: #777771;
+}
+
+.bg-superlightbeige {
+    background-color: #EDE9E6;
+}
+
+.bg-superdarkgray {
+    background-color: #363B39;
+}
+
+/* Background Color end */
+
+/* Div Size Start */
+.div-size-square {
+    width: 100px;
+    height: 100px;
+}
+
+.div-size-height {
+    height: 240px;
+}
+
+/* Div Size End */
+
+/* Circle Start */
+.circle-1 {
+    height: 450px;
+    width: 450px;
+    /* background-color: ; */
+    border-radius: 50%;
+    text-align: center;
+}
+
+.circle-2 {
+    height: 200px;
+    width: 200px;
+    /* background-color:; */
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* Circle End */
+
+/* Button Start */
+.btn {
+    background-color: #B8B9B4;
+    color: #4F5653(2, 2, 2);
+    border: 4px solid #B8B9B4;
+    border-radius: 10px;
+    padding: 2%;
+    font-family: Lora;
+}
+
+.btn:hover {
+    background-color: #777771;
+    color: #EDE9E6;
+    border: 4px solid #777771;
+    border-radius: 10px;
+    padding: 2%;
+    font-family: Lora;
+}
+
+.btn:focus {
+    background-color: #363B39;
+    color: #EDE9E6;
+    border: 4px solid #363B39;
+    border-radius: 10px;
+    padding: 2%;
+    font-family: Lora;
+}
+
+.btns {
+    background-color: #B8B9B4;
+    color: #4F5653(2, 2, 2);
+    border: 4px solid #B8B9B4;
+    border-radius: 10px;
+    padding: 8px 30px;
+    font-family: Lora;
+    margin-top: 2%;
+}
+
+.btns:hover {
+    background-color: #777771;
+    color: #EDE9E6;
+    border: 4px solid #777771;
+ }
+
+.btn_upload {
+    background-color: #B8B9B4;
+    color: #4F5653(2, 2, 2);
+    border: 4px solid #B8B9B4;
+    border-radius: 10px;
+    /* padding-left: 0.5%;
+    padding-right: 0.5%; */
+    font-family: Lora;
+}
+
+.btn_upload:hover {
+    background-color: #777771;
+    color: #EDE9E6;
+    border: 4px solid #777771;
+    border-radius: 10px;
+    /* padding-left: 1%;
+    padding-right: 1%; */
+    font-family: Lora;
+}
+
+.btn_upload:focus {
+    background-color: #363B39;
+    color: #EDE9E6;
+    border: 4px solid #363B39;
+    border-radius: 10px;
+    /* padding-left: 1%;
+    padding-right: 1%; */
+    font-family: Lora;
+}
+
+/* Button end */
+
+/* Form start */
+.form-control {
+    background-color: #D9D9D9;
+    border: 2px solid #6D6D72;
+    box-shadow: 0 0 0 2 #4F5653;
+}
+
+.form-control:active {
+    background-color: #D9D9D9;
+    border: 2px solid #6D6D72;
+}
+
+.form-control:focus {
+    background-color: #D9D9D9;
+    border: 2px solid #6D6D72;
+    box-shadow: 0 0 0 2 #4F5653;
+}
+
+.form-select {
+    background-color: #D9D9D9;
+    border: 2px solid #6D6D72;
+}
+
+/* Form end */
+
+@media only screen and (max-width: 768px) {
+    .navBG {
+        background-color: #e5e1D8 !important;
+        font-size: 15px !important;
+    }
+
+    .tittle-font {
+        font-size: 34px !important;
+    }
+
+    .content-lg {
+        font-size: 25px !important;
+
+    }
+
+    .content-sm {
+        font-size: 18px !important;
+        /* width: 90% !important; */
+    }
+
+    .pbtn {
+        font-size: 16px !important;
+    }
+
+    .pcmmt {
+        font-size: 130px !important;
+        margin-top: 7%;
+    }
+
+    .pcmmb {
+        font-size: 130px !important;
+    }
+
+    .navBG {
+        background-color: #e5e1D8 !important;
+        font-size: 15px !important;
+    }
+
+    .cp-lg {
+        font-size: 28px !important;
+        margin-top: -90px;
+    }
+
+    .cp-md {
+        font-size: 18px !important;
+    }
+
+    .cp-sm {
+        font-size: 12px !important;
+    }
+
+    .picon {
+        font-size: 22px !important;
+        margin-top: 0 !important;
+    }
+
+}
+
+.picon {
+
+    margin-top: -50px;
+}
+
+.carousel-control-next {
+    right: -20px;
+    font-weight: 5px;
+}
+
+.carousel-control-prev {
+    left: -20px;
+}
+
+.navBG {
+    background-color: #6D6D72;
+    font-size: 20px;
+}
+
+
+/* font-size start */
+
+.tittle-font {
+    color: #6d6d72;
+    font-size: 68px;
+    font-family: Lora;
+}
+
+.content-lg {
+    color: #6d6d72;
+    font-size: 34px;
+    font-family: Lora;
+}
+
+.content-sm {
+    color: #6d6d72;
+    font-size: 24px;
+    font-family: Mallanna;
+}
+
+/* font-size end */
+
+/* wedding dress page start */
+
+.fs-wd {
+    font-size: 35px;
+    font-family: Lora;
+    margin-top: -7%;
+    margin-left: 6px;
+    color: #EDE9E6;
+
+
+}
+
+.img-con {
+    width: 250px;
+    transition: all 0.2s;
+}
+
+.img-con:hover {
+    width: 600px;
+}
+
+.img-con-txt {
+    transform: rotate(-90deg);
+    transition: all 0.2s;
+
+}
+
+
+.img-con:hover .img-con-txt {
+    transform: rotate(0deg);
+    bottom: 0;
+    left: 2%;
+
+}
+
+/* wedding dress page end */
+
+/* calendar Start */
+
+.calendar {
+    border: 1px solid black;
+}
+
+.month {
+    display: flex;
+    border-bottom: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    align-items: center;
+    font-size: 22px;
+}
+
+.d-flex, .justify-content-between, .w-100, .flex-wrap {
+    font-size: 25px;
+}
+
+.calendar,
+.left {
+    max-width: 450px;
+    width: 100%;
+}
+
+#nxt,
+#prev {
+    cursor: pointer;
+    height: 38px;
+    width: 38px
+}
+
+#nxt:hover,
+#prev:hover {
+
+    color: #777771;
+    background: #e5e1D8;
+    height: 38px;
+    width: 38px
+}
+
+.weekdays div {
+    width: 14.28%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.calendar #days .day {
+    width: 12.28%;
+    height: 52px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    caret-color: transparent
+}
+
+.calendar .day:not(.prev-date, .nxt-date, .tillCurrentDate, .futureDays) {
+    font-weight: 900;
+    cursor: pointer
+}
+
+.calendar .day:not(.prev-date, .nxt-date, .active, .tillCurrentDate, .futureDays):hover {
+    background: #d9e6fc
+}
+
+.calendar #days .nxt-date,
+.calendar #days .prev-date {
+    visibility: hidden
+}
+
+.calendar #days .active {
+    background: #363B39;
+    color: #D6D3D0;
+    border-radius: 50%; 
+}
+
+.calendar #days .today {
+    position: relative
+}
+
+.calendar #days .today::after {
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 6px;
+    background: #363B39;
+    border-radius: 50%; 
+    bottom: 8px
+}
+
+.calendar #days .active.today::after {
+    background: #fff
+}
+
+#rightContent {
+    width: 275px;
+    max-height: 400px;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden
+}
+
+.right {
+    border-end-end-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: .3s
+}
+
+.events {
+    height: 385px
+}
+
+.left {
+    height: 530px
+}
+
+@media screen and (max-width:768px) {
+    .right {
+        width: 330px;
+        border-radius: 0;
+        margin: auto
+    }
+
+    .left {
+        height: 450px;
+        margin: auto
+    }
+
+    .img-con:hover .img-con-txt {
+        transform: rotate(-90deg);
+        margin-top: -5px;
+
+    }
+
+}
+
+::-webkit-scrollbar {
+    height: 4px;
+    width: 8px;
+    background: #fff;
+    padding: 10px
+}
+
+.confirm-btn,
+.event-time {
+    height: 52px;
+    font-weight: 700
+}
+
+::-webkit-scrollbar-track {
+    background: #fff
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555
+}
+
+.event-time {
+    padding: 12px;
+    margin-bottom: 8px;
+    border: 1px solid #6D6D72;
+    width: 100%;
+    border-radius: 4px;
+    color: #6D6D72;
+    background: #E5E1D8; 
+    transition: width .3s, transform .3s
+}
+
+.event-time:hover:not(.btnDisable, .activeEvent-time) {
+    border-width: 3px;
+    border-color: #6D6D72
+}
+
+.button-full .activeEvent-time {
+    width: 48%;
+    border-color: transparent;
+    background-color: #00000099;
+    color: #fff
+}
+
+.button-full .activeConfirm-btn {
+    transform: translateX(0)
+}
+
+.confirm-btn {
+    width: 48%;
+    margin-left: 3%;
+    background-color: #363B39;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 6px 0 #0000001a;
+    border: none;
+    transform: translateX(20px)
+}
+
+.button-full {
+    white-space: nowrap
+}
+
+.btnDisable {
+    border: 1px solid #f1f1f1;
+    color: #837f7f;
+    background: #f1f1f1
+}
+
+@media screen and (max-width:480px) {
+
+    .calendar,
+    .left {
+        width: 330px
+    }
+
+    .left {
+        height: 360px
+    }
+
+    .calendar #days .day {
+        width: 11.28%;
+        height: 35px
+    }
+
+    .calendar #days .today::after {
+        bottom: 2px
+    }
+}
+
+/* calendar End */
+
+#footer {
+    position: absolute;
+    bottom: -1rem;
+    width: 100%;
+    height: 1rem;
+    /* Footer height */
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+
+.Classic {
+    width: 498px;
+    height: 119px;
+    left: 0px;
+    top: 550px;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    text-align: center;
+    color: #6D6D72;
+    font-size: 100px;
+    font-family: Lora;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-shadow: #5b5b60 2px 2px 2px;
+
+    animation: Test 2s;
+}
+
+@keyframes Test {
+    0% {
+        top: 300px;
+        opacity: 0;
+    }
+
+    50% {
+        top: 300px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 550px;
+        opacity: 1;
+    }
+}
+
+input[type="file"] {
+    display: none;
+}
